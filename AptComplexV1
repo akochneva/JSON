@@ -2,58 +2,55 @@
 {
 "@context" : "http://schema.org",
 "@type" : "Place",
-			"additionalProperty": "Apartment Complex",		   
-		    "name": "NAME_COMPLEX1",
-            "branchCode": "NAME_OF_BRANCH",
-   		    "sameAs": "COMPLEX_WEBSITE_1", 
-	        "logo": "COMPLEX_LOGO_IMAGE_FILE_1", 
-	        "image": "COMPLEX_HERO_IMAGE_1", 
-		    "description": "COMPLEX_DESCRIPTION_1",
-            "amenityFeature": "AMENITY_1",                        
-            "openingHoursSpecification": "Monday-Friday 00:00-00:00",
-            "telephone": "+1 (555) 555-5555"
-            },
+	"additionalProperty": "Apartment Complex",		   
+	"name": "NAME_COMPLEX1"
+	"branchCode": "NAME_OF_BRANCH",
+	"sameAs": "COMPLEX_WEBSITE_1",
+	"logo": "COMPLEX_LOGO_IMAGE_FILE_1",
+	"image": "COMPLEX_HERO_IMAGE_1", 
+	"description": "COMPLEX_DESCRIPTION_1",
+	"amenityFeature": "AMENITY_1",
+	"openingHoursSpecification": "Monday-Friday 00:00-00:00",
+	"telephone": "+1 (555) 555-5555"
+ },
 "address" : {
-   	     "@type" : "PostalAddress",
-    		 "streetAddress" : "STREET_1",
-     		 "addressLocality" : "CITY _1",
-     		 "addressRegion" : "STATE_1",
-     		 "postalCode" : "ZIP_1",
-    		 "addressCountry": "United States",
+"@type" : "PostalAddress",
+    	 "streetAddress" : "STREET_1",
+	 "addressLocality" : "CITY _1",
+	 "addressRegion" : "STATE_1",
+	 "postalCode" : "ZIP_1",
+	 "addressCountry": "United States",
     		 
-             },
+},
 "contactPoint": { 
-		"@type": "ContactPoint", 
-			"telephone": "+1(518) 456-7155", 
-			"contactType": "Customer Service"
-            },
+"@type": "ContactPoint", 
+	"telephone": "+1(518) 456-7155",
+	"contactType": "Customer Service"
+ },
 "geo": { 
-		"@type": "GeoCoordinates", 
-			"latitude": "00.000000", 
-			"longitude": "00.000000"
-            },
-        
+"@type": "GeoCoordinates", 
+	"latitude": "00.000000", 
+	"longitude": "00.000000"
+ },        
 "offers" : {
-    	"@type" : "Offer",
+"@type" : "Offer",
         "name" : "One Bedroom Apartment"
-   			"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
- 	  		"price" : "00.00-00.00",
-            "priceCurrency": "USD"
- 	  		"url" : "COMPLEX_WEBSITE_1"
-            
-       "@type" : "Offer",
+   	"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
+ 	"price" : "00.00-00.00",
+        "priceCurrency": "USD"
+ 	"url" : "COMPLEX_WEBSITE_1"            
+"@type" : "Offer",
         "name" : "Two Bedroom Apartment"
-   			"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
- 	  		"price" : "00.00-00.00",
-            "priceCurrency": "USD"
- 	  		"url" : "COMPLEX_WEBSITE_1"
-            
-       "@type" : "Offer",
+   	"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
+ 	"price" : "00.00-00.00",
+        "priceCurrency": "USD"
+ 	"url" : "COMPLEX_WEBSITE_1"
+"@type" : "Offer",
         "name" : "Three Bedroom Apartment"
-   			"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
- 	  		"price" : "00.00-00.00",
-            "priceCurrency": "USD"
- 	  		"url" : "COMPLEX_WEBSITE_1"
+   	"availability" : "COMPLEX_AVAILABILITY_WEBSITE_1",
+ 	"price" : "00.00-00.00",
+        "priceCurrency": "USD"
+ 	"url" : "COMPLEX_WEBSITE_1"
                         
             
 "@type" : "Thing"
