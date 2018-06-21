@@ -3,7 +3,7 @@
 "@context" : "http://schema.org",
 "@type" : "Place",
 	"additionalProperty": "Apartment Complex",		   
-	"name": "NAME_COMPLEX1"
+	"name": "NAME_COMPLEX1",
 	"branchCode": "NAME_OF_BRANCH",
 	"sameAs": "COMPLEX_WEBSITE_1",
 	"logo": "COMPLEX_LOGO_IMAGE_FILE_1",
