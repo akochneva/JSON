@@ -1,0 +1,42 @@
+<script type="application/ld+json">
+ {
+ "@context": "http://schema.org", 
+"@type": "JobPosting",
+ "baseSalary": 
+{ 
+"@type": "MonetaryAmount",
+ "value": "SALARY",
+ "currency": "USD" 
+}, 
+"jobBenefits": "Medical, Life, Dental",
+ "datePosted": "YYYY-MM-DD", 
+"validThrough": "YYYY-MM-DD", 
+"description": "DESCRIBE POSITION", 
+"educationRequirements": "DEGREE ETC.", 
+"employmentType": "FULL/PART TIME",
+ "experienceRequirements": "PREVIOUS EXPERIENCE EQUIRED", 
+"incentiveCompensation": "BASE SALARY/BONUS/COMMISSION", 
+"hiringOrganization": "COMPANY NAME", 
+"industry": "INDUSTRY",
+ "jobLocation":
+ { 
+"@type": "Place", 
+"address": 
+{ 
+"@type": "PostalAddress",
+ "streetAddress": "100 SOME STREET",
+ "postalCode": "00000", 
+"addressLocality": "CITY",
+ "addressRegion": "STATE"
+ } 
+},
+ "occupationalCategory": "TYPE OF JOB",
+ "qualifications": "WHAT IS REQUIRED.",
+ "responsibilities": "OUTLINE DUTIES",
+ "salaryCurrency": "USD", 
+"skills": "LIST SKILLS",
+ "title": "JOB TITLE", 
+"workHours": "40 hours per week"
+ }
+ </script>
+
